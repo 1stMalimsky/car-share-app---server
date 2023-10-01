@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19cb8022.css",
+    "main.js": "/static/js/main.0dc5257b.js",
+    "static/js/787.04dc0f5e.chunk.js": "/static/js/787.04dc0f5e.chunk.js",
+    "static/media/registerHeader.png": "/static/media/registerHeader.add3264caf7187b7e097.png",
+    "static/media/ourCars.jpg": "/static/media/ourCars.dcb5bedd5d2443ad4fc1.jpg",
+    "static/media/homePageCar.png": "/static/media/homePageCar.8a285147625f4f30a4a3.png",
+    "static/media/logo.png": "/static/media/logo.a3169d67f306720f48a0.png",
+    "static/media/aboutPageImg3.jpg": "/static/media/aboutPageImg3.2c48153df742d18ec85b.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.19cb8022.css.map": "/static/css/main.19cb8022.css.map",
+    "main.0dc5257b.js.map": "/static/js/main.0dc5257b.js.map",
+    "787.04dc0f5e.chunk.js.map": "/static/js/787.04dc0f5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19cb8022.css",
+    "static/js/main.0dc5257b.js"
+  ]
+}

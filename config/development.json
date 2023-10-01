@@ -1,0 +1,8 @@
+{
+  "dbConfig": {
+    "mongoUrl": "mongodb://127.0.0.1:27017/finalProjectserver",
+    "mongoAtlasUrl": "mongodb+srv://admin:Aa123456!@cluster0.co1es7j.mongodb.net/"
+  },
+  "jwt": "hnjmkngnc12456",
+  "file": "running on DEV"
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "name": {
+      "firstName": "Yael",
+      "middleName": "",
+      "lastName": "Malimsky"
+    },
+    "phone": "05356352821",
+    "email": "y@gmail.com",
+    "password": "Aa123456#",
+    "address": {
+      "state": "",
+      "country": "IL",
+      "city": "Aniam",
+      "street": "Aniam",
+      "houseNumber": 1,
+      "zip": 12345678
+    },
+    "isAdmin": false
+  },
+  {
+    "name": {
+      "firstName": "Ian",
+      "middleName": "Roger",
+      "lastName": "Bokakesky"
+    },
+    "phone": "05356353321",
+    "email": "ian@gmail.com",
+    "password": "Aa123456#",
+    "address": {
+      "state": "",
+      "country": "IL",
+      "city": "Tel Aviv",
+      "street": "Jabotinski",
+      "houseNumber": 156,
+      "zip": 1235836
+    },
+    "isAdmin": false
+  },
+  {
+    "name": {
+      "firstName": "Alon",
+      "middleName": "",
+      "lastName": "Malimsky"
+    },
+    "phone": "05356352821",
+    "email": "a@gmail.com",
+    "password": "Aa123456#",
+    "address": {
+      "state": "",
+      "country": "IL",
+      "city": "Aniam",
+      "street": "Aniam",
+      "houseNumber": 123456,
+      "zip": 132456
+    },
+    "isAdmin": true
+  }
+]

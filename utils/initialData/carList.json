@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Yael's car",
+    "description": "This ia an awesome car. could definitaley serve you on your local city trips. The car is serviced monthly and has no apparent mechanical issues. enjoy!",
+    "carType": "Sedan",
+    "carModel": "Toyota Auris",
+    "phone": "0535625845",
+    "email": "y@gmail.com",
+    "image": {
+      "url": "https://s.car.info/image_files/360/toyota-auris-5-door-front-side-1-887223.jpg",
+      "alt": "Yael's car"
+    },
+    "address": {
+      "state": "",
+      "country": "Israel",
+      "city": "Ashkeluna",
+      "street": "jump street",
+      "houseNumber": 23,
+      "zip": 12345678
+    },
+    "price": 350,
+    "likes": [],
+    "bookedDates": [
+      { "start": 1696636800000, "end": 1696982400000 },
+      { "start": 1697760000000, "end": 1697932800000 }
+    ],
+    "user_id": ""
+  },
+
+  {
+    "title": "Ian's truck",
+    "description": "This ia an awesome car. could definitaley serve you on your local city trips. The car is serviced monthly and has no apparent mechanical issues. enjoy!",
+    "phone": "0504568792",
+    "email": "ian@gmail.com",
+    "image": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR82lLKhQBKB2TYmFFNTQTBS56QCl0-KegSBw&usqp=CAU",
+      "alt": "Ian's truck"
+    },
+    "address": {
+      "state": "",
+      "country": "Israel",
+      "city": "Jerusalem",
+      "street": "sit street",
+      "houseNumber": 23,
+      "zip": 12345678
+    },
+    "price": 550,
+    "carType": "Truck",
+    "carModel": "Toyota Tacoma",
+    "likes": [],
+    "bookedDates": [
+      { "start": 1697760000000, "end": 1697932800000 },
+      { "start": 1699142400000, "end": 1699574400000 }
+    ],
+    "user_id": ""
+  },
+
+  {
+    "title": "Alon's Jeep",
+    "description": "This ia an awesome car. could definitaley serve you on your local city trips. The car is serviced monthly and has no apparent mechanical issues. enjoy!",
+    "phone": "0500000000",
+    "email": "biz3@gmail.com",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Nissan_Terrano_2%2C7TDi.jpg/1200px-Nissan_Terrano_2%2C7TDi.jpg",
+      "alt": "Alon's jeep"
+    },
+    "address": {
+      "state": "",
+      "country": "Israel",
+      "city": "Kfar Saba",
+      "street": "stand street",
+      "houseNumber": 23,
+      "zip": 12345678
+    },
+    "price": 400,
+    "carType": "Jeep",
+    "carModel": "Nissan Terrano",
+    "bookedDates": [{ "start": 1700006400000, "end": 1700265600000 }],
+    "likes": [],
+    "user_id": ""
+  }
+]
