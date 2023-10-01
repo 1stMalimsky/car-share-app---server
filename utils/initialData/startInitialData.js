@@ -11,6 +11,7 @@ const checkData = async () => {
     try {
         let allUsers = await userServiceModel.getAllUsers();
         let allCars = await carServiceModel.getAllCars();
+        const newUsers = [];
         if (allUsers.length === 0) {
             await Promise.all(
                 userList.map(async (user) => {
@@ -18,21 +19,20 @@ const checkData = async () => {
                         normalizeUser(user);
                         user.password = await hashServiceModel.generateHash(user.password);
                         await userServiceModel.registerUser(user);
+                        newUsers.push(user);
                     }
                     catch (err) {
-                        res.status(500).json({ message: err.message || err });
+                        res.status(500).json({ userCreationError: err.message || err });
                     }
                 })
             )
-            console.log("Users created");
         }
-        allUsers = await userServiceModel.getAllUsers()
+        allUsers = [...allUsers, ...newUsers];
         if (allCars.length == 0) {
             for (let i = 0; i < 3; i++) {
                 //normalizeCar(carList[i]);
                 await carServiceModel.createCar({ ...carList[i], user_id: allUsers[i]._id });
             };
-            console.log("Cars Created");
         }
         else return console.log("Database already exists");
     }

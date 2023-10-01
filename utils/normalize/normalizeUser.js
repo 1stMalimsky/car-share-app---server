@@ -1,12 +1,11 @@
 
 const normalizeUser = (user) => {
-
     if (!user.image) {
         user.image = {}
     }
     user.image = {
-        url: user.Url || "https://img.freepik.com/free-icon/user_318-875902.jpg",
-        alt: user.Alt || "This is where you add your pic description"
+        url: user.image.url || user.url || "https://img.freepik.com/free-icon/user_318-875902.jpg",
+        alt: user.image.alt || user.alt || "This is where you add your pic description"
     }
     if (!user.name) {
         user.name = {}

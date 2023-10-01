@@ -5,6 +5,10 @@
       "middleName": "",
       "lastName": "Malimsky"
     },
+    "image": {
+      "url": "https://us-tuna-sounds-images.voicemod.net/7a600a8f-8d98-4280-8dab-444ec32758e1-1664754807128.jpg",
+      "alt": "Yael's profile pic"
+    },
     "phone": "05356352821",
     "email": "y@gmail.com",
     "password": "Aa123456#",
@@ -18,11 +22,16 @@
     },
     "isAdmin": false
   },
+
   {
     "name": {
       "firstName": "Ian",
       "middleName": "Roger",
       "lastName": "Bokakesky"
+    },
+    "image": {
+      "url": "https://nextluxury.com/wp-content/uploads/funny-profile-pictures-13.jpg",
+      "alt": "Ian's profile pic"
     },
     "phone": "05356353321",
     "email": "ian@gmail.com",
@@ -37,11 +46,16 @@
     },
     "isAdmin": false
   },
+
   {
     "name": {
       "firstName": "Alon",
       "middleName": "",
       "lastName": "Malimsky"
+    },
+    "image": {
+      "url": "https://i.imgflip.com/44vcdi.jpg",
+      "alt": "Alon's profile pic"
     },
     "phone": "05356352821",
     "email": "a@gmail.com",
